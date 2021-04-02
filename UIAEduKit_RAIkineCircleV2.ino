@@ -95,14 +95,14 @@ void loop() {
   //we will get the X and Y coordinate for the circles by implementing polar coordinate formula.
   
   //Input from user for circle
-  originX = 10;
+  originX = 0.1;
   originY = 160;
   radiusCircle = 40;
-  resoCircle = 361;
+  resoCircle = 144;
   angleCircle = 0;
   xCircle = 0;
   yCircle = 0;
-  drawSpeed = 1000;
+  drawSpeed = 300;
   
   //Processing the robot path
   incCircle = 360/resoCircle;
@@ -160,10 +160,10 @@ void loop() {
     }
 
     if (passEE != 1){
-      analogWrite(LED_BUILTIN, 255);
-      delay(1000);
-      analogWrite(LED_BUILTIN,100);
-      delay(1000);
+      analogWrite(EE, 255);
+      delay(500);
+      analogWrite(EE,100);
+      //delay(50);
       passEE++;
     }
     
