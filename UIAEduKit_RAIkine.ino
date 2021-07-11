@@ -3,6 +3,7 @@
 //Code for 2-Link Robotic Arm's inverse kinematics (ikine). Using X-Y coordinate to move robotic arm.
 //By Zharif Zubaidi (zharif.z@prostrain.com.my | ProStrain Technologies Sdn Bhd)
 //Hey there all!
+//Heyyyyy yooo
 
 // Define pin connections & motor's steps per revolution
 #define DIRPIN1 2
