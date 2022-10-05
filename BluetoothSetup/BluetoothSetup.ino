@@ -1,3 +1,4 @@
+//HM-10 Bluettooth Setup
 // Serial communication with Bluetooth HM-10
 // Uses serial monitor for communication with Bluetooth HM-10
 //
@@ -8,6 +9,9 @@
 //
 // When a command is entered in to the serial monitor on the computer 
 // the Arduino will relay the command to the HM-10
+// ProStrain Technologies
+// By Zharif Zubaidi
+// Please contact us at info@prostrain.com.my if you have any inquiries.
 
 
 // Library to make a Software UART

@@ -1,8 +1,12 @@
-#include <SpeedyStepper.h> 
-//Code for 2-Link Robotic Arm's forward kinematics + acceleration and decelaration.
-//By Zharif Zubaidi (zharif.z@prostrain.com.my | ProStrain Technologies Sdn Bhd)
+// Code for 2-Link Robotic Arm's forward kinematics + acceleration and decelaration.
+// ProStrain Technologies
+// By Zharif Zubaidi
+// Please contact us at info@prostrain.com.my if you have any inquiries.
 
-//Define pin connections & motor's steps per revolution
+// Include library
+#include <SpeedyStepper.h> 
+
+// Define pin connections & motor's steps per revolution
 #define DIRPIN1 2
 #define STEPPIN1 3
 #define DIRPIN2 4
