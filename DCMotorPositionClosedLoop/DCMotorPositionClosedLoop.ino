@@ -1,5 +1,7 @@
 /*
 DC Motor Position Control with Encoder (Closed Loop)
+Input setpoint which is encoder count and you will get an motor movement
+in angle (degrees). The accuracy of the movement is controlled by PID
 ProStrain Technologies
 By Zulhafiz Zulkifli
 Please contact us at info@prostrain.com.my if you have any inquiries.

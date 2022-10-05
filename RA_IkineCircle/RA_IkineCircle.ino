@@ -2,7 +2,9 @@
 #include <math.h>
 
 //Code for 2-Link Robotic Arm making a circle by using 36 points (increment of 10 degree)
-//By Zharif Zubaidi (zharif.z@prostrain.com.my | ProStrain Technologies Sdn Bhd)
+// ProStrain Technologies
+// By Zharif Zubaidi
+// Please contact us at info@prostrain.com.my if you have any inquiries.
 
 // Define pin connections & motor's steps per revolution
 #define DIRPIN1 2
