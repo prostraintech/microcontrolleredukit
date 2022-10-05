@@ -1,6 +1,6 @@
 #include <PID_v1.h>
 double PID_Setpoint, PID_Input, PID_Output;
-double Kp=0.75, Ki=0.0, Kd=0;
+double Kp=0.8, Ki=0.0, Kd=0;
 PID myPID(&PID_Input, &PID_Output, &PID_Setpoint, Kp, Ki, Kd, DIRECT);
 
 //Define Pins. Constants won't change. They're used here to set pin numbers.
@@ -14,19 +14,18 @@ const int PPR = 280; // 280 pulse per revolution Encoder
 volatile int counts = 0; //counts the encoder counts. The encoder has counts/rev
 
 void setup() {
-  // put your setup code here, to run once:
+  //Serial setup
+  Serial.begin(115200);
+  // Motor setup
   pinMode(MotorPin1, OUTPUT);
   pinMode(MotorPin2, OUTPUT);
   pinMode(MotorPinPWM, OUTPUT);
-  //Serial setup
-  Serial.begin(115200);
   //Encoder setup
   pinMode(EncoderPinA, INPUT_PULLUP); //initialize Encoder Pins
   pinMode(EncoderPinB, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(EncoderPinA), readEncoder, CHANGE); //attach interrupt to PIN 2
-
-  PID_Setpoint = 360 * 280 / 360; // 360 degrees x 280ppr / 360 degrees;
-  //turn the PID on
+  //PID setup
+  PID_Setpoint = 280; // 280 pulse = 360 degrees;
   myPID.SetMode(AUTOMATIC);
   myPID.SetOutputLimits(0, 150);
 }
