@@ -1,6 +1,6 @@
 // Code for 2-Link Robotic Arm making a circle by using changeable resolution
 // ProStrain Technologies
-// By Zharif Zubaidi
+// By Zharif Zubaidi and Taufik Yunahar
 // Please contact us at info@prostrain.com.my if you have any inquiries.
 
 #include <SpeedyStepper.h> 

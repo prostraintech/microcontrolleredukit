@@ -1,6 +1,6 @@
 // Code for 2-Link Robotic Arm's forward kinematics + acceleration and decelaration.
 // ProStrain Technologies
-// By Zharif Zubaidi
+// By Zharif Zubaidi and Taufik Yunahar
 // Please contact us at info@prostrain.com.my if you have any inquiries.
 
 // Include library

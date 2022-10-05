@@ -3,7 +3,7 @@
 
 //Code for 2-Link Robotic Arm making a circle by using 36 points (increment of 10 degree)
 // ProStrain Technologies
-// By Zharif Zubaidi
+// By Zharif Zubaidi and Taufik Yunahar
 // Please contact us at info@prostrain.com.my if you have any inquiries.
 
 // Define pin connections & motor's steps per revolution

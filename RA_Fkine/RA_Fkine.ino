@@ -1,6 +1,6 @@
 // Code for 2-Link Robotic Arm's forward kinematics(fkine). Moving arms simultaneously according to joint angles (deg) as input.
 // ProStrain Technologies
-// By Zharif Zubaidi
+// By Zharif Zubaidi and Taufik Yunahar
 // Please contact us at info@prostrain.com.my if you have any inquiries.
 
 // Define pin connections & motor's steps per revolution
