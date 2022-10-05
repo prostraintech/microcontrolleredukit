@@ -1,3 +1,10 @@
+/*
+DC Motor Position Control with Encoder (Closed Loop)
+ProStrain Technologies
+By Zulhafiz Zulkifli
+Please contact us at info@prostrain.com.my if you have any inquiries.
+*/
+
 #include <PID_v1.h>
 double PID_Setpoint, PID_Input, PID_Output;
 double Kp=0.8, Ki=0.0, Kd=0;
