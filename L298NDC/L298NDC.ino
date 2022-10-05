@@ -1,3 +1,7 @@
+// ProStrain Technologies
+// By Zharif Zubaidi
+// Please contact us at info@prostrain.com.my if you have any inquiries.
+
 #include "PID_v1.h"
 
 //Define Pins. Constants won't change. They're used here to set pin numbers. Pin 20 & 21 is interrupt

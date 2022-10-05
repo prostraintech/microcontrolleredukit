@@ -1,4 +1,9 @@
 /*
+LCD Demo Code
+ProStrain Technologies
+By Zharif Zubaidi
+Please contact us at info@prostrain.com.my if you have any inquiries.
+
   LiquidCrystal Library - Hello World
 
  Demonstrates the use a 16x2 LCD display.  The LiquidCrystal

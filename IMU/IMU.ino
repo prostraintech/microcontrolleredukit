@@ -1,16 +1,7 @@
-/*!
-  * imu_show.ino
-  *
-  * Download this demo to show attitude on [imu_show](https://github.com/DFRobot/DFRobot_IMU_Show)
-  * Attitude will show on imu_show
-  *
-  * Product: http://www.dfrobot.com.cn/goods-1860.html
-  * Copyright   [DFRobot](http://www.dfrobot.com), 2016
-  * Copyright   GNU Lesser General Public License
-  *
-  * version  V1.0
-  * date  07/03/2019
-  */
+// Code for IMU measurement
+// ProStrain Technologies
+// By Zulhafiz Zulkifli
+// Please contact us at info@prostrain.com.my if you have any inquiries.
 
 #include "DFRobot_BNO055.h"
 #include "Wire.h"

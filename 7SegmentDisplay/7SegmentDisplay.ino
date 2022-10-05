@@ -1,3 +1,10 @@
+/*
+7 Segment LED Code
+ProStrain Technologies
+By Zharif Zubaidi
+Please contact us at info@prostrain.com.my if you have any inquiries.
+*/
+
 #include "SevSeg.h"
 SevSeg sevseg; 
 

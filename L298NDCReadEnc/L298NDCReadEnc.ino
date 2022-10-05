@@ -1,3 +1,7 @@
+// ProStrain Technologies
+// By Zharif Zubaidi
+// Please contact us at info@prostrain.com.my if you have any inquiries.
+
 //Define Pins. Constants won't change. They're used here to set pin numbers. Pin 20 & 21 is interrupt
 const int EncoderPinA = 2;   // Encoder Pin A. Interrupt 0
 const int EncoderPinB = 3;  // Encoder Pin B. Interrupt 1

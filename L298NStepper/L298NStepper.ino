@@ -1,3 +1,10 @@
+/*
+Stepper Motor Using L298N Code
+ProStrain Technologies
+By zulhafiz Zulkifli
+Please contact us at info@prostrain.com.my if you have any inquiries.
+*/
+
 // Include the Arduino Stepper Library
 #include <Stepper.h>
 

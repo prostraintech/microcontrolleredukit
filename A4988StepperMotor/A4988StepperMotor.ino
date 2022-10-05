@@ -1,8 +1,9 @@
-/*     Simple Stepper Motor Control Exaple Code
- *      
- *  by Dejan Nedelkovski, www.HowToMechatronics.com
- *  
- */
+/*
+A4988 Stepper Motor Code
+ProStrain Technologies
+By Zharif Zubaidi
+Please contact us at info@prostrain.com.my if you have any inquiries.
+*/
 
 // defines pins numbers
 const int stepPin = 3; 

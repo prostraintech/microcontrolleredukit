@@ -1,4 +1,9 @@
- /*The circuit:
+//Code Encoder in X2 format plus LCD
+// ProStrain Technologies
+// By Zharif Zubaidi
+// Please contact us at info@prostrain.com.my if you have any inquiries.
+ 
+ /*The LCD circuit:
  * LCD RS pin to digital pin 12
  * LCD Enable pin to digital pin 11
  * LCD D4 pin to digital pin 5
@@ -49,7 +54,6 @@ void loop() {
 
 void readEncoder() //this function is triggered by the encoder CHANGE, and increments the encoder counter
 { 
-  lcd.clear();
   if(digitalRead(EncoderPinB) == digitalRead(EncoderPinA) )
   {
     counts = counts-1; //you may need to redefine positive and negative directions
