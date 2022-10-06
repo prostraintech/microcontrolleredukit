@@ -10,11 +10,10 @@ SevSeg sevseg;
 
 void setup(){
   byte numDigits = 4;
-  byte digitPins[] = {10, 11, 12, 13};
-  byte segmentPins[] = {9, 2, 3, 5, 6, 8, 7, 4};
+  byte digitPins[] = {10, 11, 12, 13};            // Digit 1 to 4
+  byte segmentPins[] = {9, 8, 7, 6, 5, 4, 3, 2};  // A,B,C,D,E,F,G,DP
 
   bool resistorsOnSegments = true; 
-  bool updateWithDelaysIn = true;
   byte hardwareConfig = COMMON_CATHODE; 
   sevseg.begin(hardwareConfig, numDigits, digitPins, segmentPins, resistorsOnSegments);
   sevseg.setBrightness(90);
