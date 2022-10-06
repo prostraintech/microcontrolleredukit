@@ -1,10 +1,10 @@
 //HM-10 Bluettooth Setup
 // Serial communication with Bluetooth HM-10
 // Uses serial monitor for communication with Bluetooth HM-10
-//
+//  Use Arduino Mega 2560
 //  Arduino to HM-10 connections
-//  Arduino pin 2 (TX) to voltage divider then to HM-10 RX
-//  Arduino pin 3 to HM-10 TX
+//  Arduino pin 18 (TX1) to HM-10 RX
+//  Arduino pin 19 (RX1) to HM-10 TX
 //  Connect GND from the Arduiono to GND on the HM-10
 //
 // When a command is entered in to the serial monitor on the computer 

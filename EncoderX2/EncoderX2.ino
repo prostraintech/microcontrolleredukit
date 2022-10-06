@@ -10,12 +10,7 @@
  * LCD D5 pin to digital pin 4
  * LCD D6 pin to digital pin 6
  * LCD D7 pin to digital pin 7
- * LCD R/W pin to ground
- * LCD VSS pin to ground
- * LCD VCC pin to 5V
- * 10K resistor:
- * ends to +5V and ground
- * wiper to LCD VO pin (pin 3)*/
+*/
 
 // include the library code:
 #include <LiquidCrystal.h>
@@ -32,7 +27,7 @@ const int EncoderPinB = 3;  // Encoder Pin B. Interrupt 3
 volatile int counts = 0; //counts the encoder counts. The encoder has counts/rev
 
 void setup(){
-  Serial.begin(115200);
+  //Serial.begin(115200);
   pinMode(EncoderPinA, INPUT); //initialize Encoder Pins
   pinMode(EncoderPinB, INPUT);  
   digitalWrite(EncoderPinA, HIGH); //initialize Pin States
@@ -41,15 +36,10 @@ void setup(){
   // set up the LCD's number of columns and rows:
   lcd.begin(16, 2);
   // Print a message to the LCD.
-  lcd.print("hello, world!");
+  lcd.print("Encoder with X2 Encoding:");
 }
 
 void loop() {
-  lcd.setCursor(0, 0);
-  lcd.print("hello, world!");
-  lcd.setCursor(0, 1);
-  lcd.print(counts);
-  
 }
 
 void readEncoder() //this function is triggered by the encoder CHANGE, and increments the encoder counter
@@ -62,4 +52,10 @@ void readEncoder() //this function is triggered by the encoder CHANGE, and incre
   {
     counts = counts+1;
   }
+  lcd.clear();
+  delay(1);
+  lcd.setCursor(0, 0);
+  lcd.print("Encoder with X2 Encoding:");
+  lcd.setCursor(0, 1);
+  lcd.print(counts);
 }
