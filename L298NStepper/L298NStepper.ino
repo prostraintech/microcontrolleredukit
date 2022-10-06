@@ -1,7 +1,7 @@
 /*
 Stepper Motor Using L298N Code
 ProStrain Technologies
-By zulhafiz Zulkifli
+By Zulhafiz Zulkifli
 Please contact us at info@prostrain.com.my if you have any inquiries.
 */
 
